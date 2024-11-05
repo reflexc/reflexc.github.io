@@ -5,7 +5,7 @@ function createFirework() {
     document.querySelector('.fireworks-container').appendChild(firework);
     setTimeout(() => {
         firework.remove();
-    }, 2000);
+    }, 200);
 }
 
 setInterval(createFirework, 500);
